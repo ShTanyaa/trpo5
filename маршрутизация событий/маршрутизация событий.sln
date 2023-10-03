@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "маршрутизация событий", "маршрутизация событий.csproj", "{4E10D12F-1A36-40A3-9ED3-4DAF23CD6592}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E10D12F-1A36-40A3-9ED3-4DAF23CD6592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E10D12F-1A36-40A3-9ED3-4DAF23CD6592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E10D12F-1A36-40A3-9ED3-4DAF23CD6592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E10D12F-1A36-40A3-9ED3-4DAF23CD6592}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {305F0E69-8DCE-42E8-97AE-FD474324953D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿<Page x:Class="маршрутизация_событий.Pages.ValidationInputPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:маршрутизация_событий.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ValidationInputPage">
+
+    <Grid>
+        <StackPanel Margin="0,0,0,-20">
+            <Label Content="Registration:" FontSize="20" FontWeight="Bold"/>
+            <Label Content="Name(only letters and spaces):" FontSize="15" Margin="25,0,10,0"/>
+            <TextBox Width="765" HorizontalAlignment="Left" Height="24" Margin="25,0,0,0" />
+            <Label Content="ID(onle digits)" FontSize="15"  Margin="25,0,10,0"/>
+            <TextBox Width="765" HorizontalAlignment="Left" Height="24" Margin="25,0,0,0"/>
+            <Label Content="Age(only digit,10..100):" FontSize="15"  Margin="25,0,10,0"/>
+            <TextBox Width="765" HorizontalAlignment="Left" Height="24" Margin="25,0,0,0"/>
+            <Label Content="Phone:" FontSize="15"  Margin="25,0,10,0"/>
+            <TextBox Width="765" HorizontalAlignment="Left" Height="24" Margin="25,0,0,0"/>
+            <Button Content="Submit" FontSize="15" Width="765"  HorizontalAlignment="Left" Height="24" Margin="25,20,0,0" Background="LightGray"/>
+        </StackPanel>
+    </Grid>
+</Page>

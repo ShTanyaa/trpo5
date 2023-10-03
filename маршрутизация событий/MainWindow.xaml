@@ -1,0 +1,21 @@
+﻿<Window x:Class="маршрутизация_событий.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:маршрутизация_событий"
+        mc:Ignorable="d"
+       Title="Главная страница" Height="504.292" Width="876.218">
+    <Grid>
+        <Label Content="Выбор страницы:" Margin="354,10,266,344" />
+        <ComboBox Name="combo" HorizontalAlignment="Left" Margin="470,10,0,0" VerticalAlignment="Top" Width="312" SelectionChanged="ComboBox_SelectionChanged" >
+
+            <ComboBoxItem Content="Всплытие (bubbling) ир туннелирование(tunneling)" />
+            <ComboBoxItem Content="Прикрепленные события" />
+            <ComboBoxItem Content="Порядок событий в TextBox" />
+            <ComboBoxItem Content="Вылидация ввода" />
+        </ComboBox>
+        <Frame Content="" Name="Frame" HorizontalAlignment="Left" Margin="0,37,0,-47" Width="858"/>
+
+    </Grid>
+</Window>
